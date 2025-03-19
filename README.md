@@ -10,7 +10,7 @@
 
 This repository stores the preliminary work made to explores image enhancement methods for underwater imagery. 
 
-## 1. Image Enhancement
+## Image Enhancement
 
 Image enhancement techniques are used to improve the quality of underwater images, which are often degraded by scattering and absorption effects. These techniques can be broadly categorised into two groups: classical image enhancement algorithms and deep learning-based models.
 
@@ -18,7 +18,7 @@ Classical algorithms are often based on Retinex theory, which aims to restore an
 
 We evaluate the performance of four image enhancement algorithms using our underwater image dataset, captured in Leixões Bay, Portugal.
 
-### 1.1. Tested Models
+### Tested Models
 
 | Model      | Description                                                                                                                    |
 |------------|--------------------------------------------------------------------------------------------------------------------------------|
@@ -28,7 +28,7 @@ We evaluate the performance of four image enhancement algorithms using our under
 | **Waternet**| A deep learning-based model designed to counter underwater image degradation caused by scattering and low light, producing clearer and more visually appealing images. |
 
 
-### 1.2. Table of Performance Metrics for Image Enhancement Algorithms
+### Table of Performance Metrics for Image Enhancement Algorithms
 
 | Model         | UIQM                  | UCIQE                 |
 |---------------|-----------------------|-----------------------|
@@ -41,7 +41,7 @@ We evaluate the performance of four image enhancement algorithms using our under
 - **UIQM** (Universal Image Quality Metric).
 - **UCIQE** (Universal Color Image Quality Evaluation) 
 
-### 1.3. Key Takeaways
+### Key Takeaways
 
 **Quantitative Evaluation (Performance Metrics)**
 - MSRCR achieves the best performance in terms of UCIQE.
