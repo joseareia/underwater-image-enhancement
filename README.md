@@ -30,24 +30,25 @@ We evaluate the performance of four image enhancement algorithms using our under
 
 ### Table of Performance Metrics for Image Enhancement Algorithms
 
-| Model         | UIQM                  | UCIQE                 |
-|---------------|-----------------------|-----------------------|
-| Original      | 0.75 $\pm$ 0.66       | 18.06 $\pm$ 3.39      | 
-| **MSRCP**     | **6.56 $\pm$ 1.36**   | 29.30 $\pm$ 0.38      | 
-| **MSRCR**     | 6.20 $\pm$ 1.22       | **30.14 $\pm$ 0.50**  | 
-| **UWCNN**     | 1.74 $\pm$ 0.70       | 22.51 $\pm$ 3.11      | 
-| **Waternet**  | 2.13 $\pm$ 0.68       | 25.32 $\pm$ 0.94      |
+| Model         | UIQM $\uparrow$       | UCIQE $\uparrow$      | CCF $\downarrow$      |
+|---------------|-----------------------|-----------------------|-----------------------|
+| Original      | 0.40 $\pm$ 0.66       | 18.06 $\pm$ 3.39      | 0.75 $\pm$ 0.30       | 
+| **MSRCP**     | **6.56 $\pm$ 1.36**   | 29.30 $\pm$ 0.38      | **0.93 $\pm$ 0.26**   | 
+| **MSRCR**     | 6.20 $\pm$ 1.22       | **30.14 $\pm$ 0.50**  | 1.95 $\pm$ 0.11       | 
+| **UWCNN**     | 1.74 $\pm$ 0.70       | 22.51 $\pm$ 3.11      | 1.11 $\pm$ 0.36       |
+| **Waternet**  | 2.13 $\pm$ 0.68       | 25.32 $\pm$ 0.94      | 1.95 $\pm$ 0.10       |
 
 - **UIQM** (Universal Image Quality Metric).
-- **UCIQE** (Universal Color Image Quality Evaluation) 
+- **UCIQE** (Universal Color Image Quality Evaluation).
+- **CCF** (Colorfulness, Contrast, and Fog Density).
 
 ### Key Takeaways
 
 **Quantitative Evaluation (Performance Metrics)**
-- MSRCR achieves the best performance in terms of UCIQE.
+- MSRCR achieves the best performance in terms of UCIQE and CCF.
 - MSRCP performs best in terms of UIQM.
 - UWCNN has the worst performance in both UIQM and UCIQE.
-- WaterNet demonstrates competitive performance in UCIQE.
+- WaterNet and MSRCP demonstrates competitive performance in UCIQE.
 
 **Qualitative Evaluation**
 - MSRCP struggles with colour restoration.
