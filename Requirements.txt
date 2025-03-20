@@ -2,3 +2,8 @@ opencv-python
 matplotlib
 scikit-image
 tabulate
+notebook
+tensorflow[and-cuda]
+torch 
+torchvision 
+torchaudio
