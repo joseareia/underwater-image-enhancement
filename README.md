@@ -1,4 +1,4 @@
-# Underwater Image Improvement
+# Underwater Image Enhancement
 
 ---
 
@@ -8,7 +8,20 @@
 
 ---
 
-This repository stores the preliminary work made to explores image enhancement methods for underwater imagery. 
+This repository stores the work made to explores image enhancement methods for underwater imagery.
+
+## Repository Structure
+```
+underwater-image-enhancement/  
+│  
+├── 🎨 Assets/                  # Logos and other visual assets  
+├── 📓 Notebooks/               # Jupyter notebooks implementing the algorithms  
+├── 🧪 Results/                 # Output imagery from tested algorithms  
+├── 🙈 .gitignore               # Git ignore file  
+├── ⚙️ .gitattributes           # Git attributes file  
+├── 📜 README.md                # Project documentation  
+├── 🛠️ requirements.txt         # Project dependencies 
+```
 
 ## Image Enhancement
 
