@@ -8,7 +8,7 @@
 
 ---
 
-This repository stores the work made to explores image enhancement methods for underwater imagery.
+This repository contains the work conducted to explore and develop image enhancement methods specifically for underwater imagery.
 
 ## Repository Structure
 ```
